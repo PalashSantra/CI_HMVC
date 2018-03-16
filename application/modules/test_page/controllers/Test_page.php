@@ -20,7 +20,6 @@ class Test_page extends MX_Controller {
 	 */
 	public function index()
 	{
-		echo "hello";
-		//$this->load->view('welcome_message');
+		$this->load->view('index');
 	}
 }
